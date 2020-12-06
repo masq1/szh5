@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <title>深圳改革四十年发展</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <link rel="stylesheet" href="/public/css/index.css">
+    </head>
+
+<body>
+    <div class="video" style="width:800px; height:500px">
+        <video src="/public/video/mda-kjfmutqufbdk6vb8.mp4" autoplay='autoplay'
+            style="object-fit: fill; width: 100%; height: 100%"></video>
+    </div>
+    <div class="content">
+        <div class="box">
+
+        </div>
+        <div class="svg-box">
+            <svg class="svg" viewbox='0 0 500 500'>
+                <defs>
+                    <mask id="blackmask">
+                        <rect x='0' y='0' width='500' height='500' fill='white'></rect>
+                        <text x='0' y='280' style="font-size:80px;font-weight:800" fill='black'>深圳四十发展</text>
+                    </mask>
+                </defs>
+                <rect x='0' y='0' width='500' height='500' fill='none'></rect>
+                <rect x='0' y='0' width='500' height='500' fill='black' mask=url(#blackmask)></rect>
+            </svg>
+        </div>
+        <div class="box">
+
+        </div>
+    </div>
+    <div id="vue_det">
+        <el-header>
+            <img src="/public/js/topBg01.jpg" class="topbg">
+        </el-header>
+        <el-container class="con">
+            
+            <el-main>
+                <div class="one">
+                    <img src="/public/js/yx.png" class="img1">
+                    <div class="onechildren">
+                        <div class="lilist">
+                            <li><img src="/public/js/1.jpg"></li>
+                            <li><img src="/public/js/2.jpg"></li>
+                            <li><img src="/public/js/3.jpg"></li>
+                            <li><img src="/public/js/4.jpg"></li>
+                            <li><img src="/public/js/5.jpg"></li>
+                            <li><img src="/public/js/6.jpg"></li>
+                        </div>
+                        <div class="videoplay">
+                            <video src="/public/video/mda-kjfmutqufbdk6vb8.mp4" controls="controls"></video>
+                        </div>
+                    </div>
+                </div>
+                <div><img src="/public/js/lc.png" class="lc"></div>
+                <el-steps :active="activeName" finish-status="success">
+                    <el-step title="1978——1987"></el-step>
+                    <el-step title="1987——1992"></el-step>
+                    <el-step title="1992——2002"></el-step>
+                    <el-step title="2002——2012"></el-step>
+                    <el-step title="2012——2020"></el-step>
+                </el-steps>
+                <div class="two">
+                    <div class="two1">
+                        <el-card class="box-card" shadow="always">
+                            <div slot="header" class="clearfix">
+                                <span>深圳改革开放四十年历程</span>
+                            </div>
+                            <el-collapse v-model="activeName" accordion>
+                                <el-collapse-item title="改革开放启动和全面展开阶段（1978——1987）" name="1">
+                                    <div>
+                                        这一阶段，以1984年10月党的十二届三中全会通过《中共中央关于经济体制改革的决定》为标志，又可分为前后相连的两个亚阶段：前阶段改革改革首先从农村开始，开展试点，积累经验，逐步推广；后阶段改革的的重点逐渐从农村转向城市，以搞活国有企业为中心环节全面展开。
+                                    </div>
+                                </el-collapse-item>
+                                <el-collapse-item title="波折总结和目标确定阶段（1987——1992）" name="2">
+                                    <div>
+                                        从1987年到1992年，改革开放经历波折进入反思总结和目标确定阶段。在改革从农村扩展到城市之后，随着价格“双轨制”、物价上涨和一些腐败现象的出现，加之人们当初对改革的承受能力的限制等复杂的原因，改革开放出现了波折。1989年之后，人们开始反思和总结，出现了不同倾向的社会思潮。面对国际国内的复杂形势，1992年春天邓小平同志南巡讲话，秋季召开了党的十四大，坚定不移地推进改革开放，确立了社会主义市场经济体制的改革目标。
+                                    </div>
+
+                                </el-collapse-item>
+                                <el-collapse-item title="社会主义市场经济体制基本框架初步建立阶段（1992——2002）" name="3">
+                                    <div>
+                                        1992年党的十四大确立了社会主义市场经济的改革方向和目标之后，1993年党的十四届三中全会通过了《关于建立社会主义市场经济体制若干问题的决定》，进一步确立了社会主义市场经济体制改革的基本内容。按照党的十四大和十四届三中全会确定的建立社会主义市场经济体制的目标模式和基本途径，不懈努力，到2002年，社会主义市场经济体制的基本框架初步建立。这一阶段，在基本经济制度方面，党的“十五大”确立了公有制为主体、多种所有制经济共同发展的基本经济制度。
+                                    </div>
+
+
+                                </el-collapse-item>
+                                <el-collapse-item title="社会主义市场经济体制初步完善阶段（2002——2012）" name="4">
+                                    <div>
+                                        2002年党的“十六大”提出到2020年建成完善的社会主义市场经济体制的改革目标，2003年党的十六届三中全会对建设完善的社会主义市场经济体制做出全面部署。自此，我国改革开放进入完善社会主义市场经济体制的新阶段。
+                                    </div>
+
+                                </el-collapse-item>
+                                <el-collapse-item title="全面深化改革进入新时代（2012——2020）" name="5">
+                                    <div>
+                                        2012年，党的“十八大”召开，选举产生了党的新一届领导核心。十八大以来，以习近平同志为核心的党中央统筹推进“五位一体”总体布局、协调推进“四个全面”战略布局，开创和形成了中国特色社会主义的新时代，党的十九大向世人昭示中国特色社会主义进入了新时代。与此同时，中国的改革开放事业也进入了全面改革开放的新时代！
+                                    </div>
+
+                                </el-collapse-item>
+                            </el-collapse>
+                        </el-card>
+                    </div>
+                    <div class="videoplay">
+                        <video src="/public/video/w0940l4z6kr.mp4" controls="controls"></video>
+                    </div>
+                </div>
+                <div><img src="/public/js/rw.png" class="lc"></div>
+                <span class="span">深圳杰出创新人物和先进模范人物</span>
+                <div class="three">
+                    <div class="block">
+                        <el-carousel :interval="4000" type="card" height="300px" autoplay loop>
+                            <el-carousel-item v-for="item in imglist" :key="item">
+                                <img :src="item" class="item">
+                            </el-carousel-item>
+                        </el-carousel>
+                    </div>
+
+                    <div class="three2">
+                        <li><strong>马化腾</strong>:马化腾，汉族，广东省汕头市潮南区人 [1-2]
+                            ,1971年10月29日生于广东省东方县八所港（今属海南省东方市）。1993年获深圳大学理学学士学位。腾讯公司主要创办人之一。现任腾讯公司董事会主席兼首席执行官；全国青联副主席；全国人大代表。
+                        </li>
+                        <li><strong>王卫</strong>:王卫，祖籍广东顺德，1970年10月生于上海，顺丰速运集团有限公司创始人、董事长。王卫七岁移居香港，在上世纪九十年代，他看中两地物流商机。其时，两地工商业信件、货办派送需求日益增多，他毅然向父母筹资十万，启动创业历程。九十年代后期，顺丰已在该领域一枝独秀。随着淘宝、网购兴起，他从包机到自组航空公司，以最快、最安全方式送递货物，成就了顺丰速运的成功。
+                        </li>
+                        <li><strong>马明哲:</strong>马明哲，1955年12月出生，中南财经政法大学货币银行学博士，中国平安保险（集团）股份有限公司董事长</li>
+                        <li><strong>任正非:</strong>任正非，男，汉族，中共党员 [1] ，1944年10月25日出生于贵州省安顺市镇宁县，祖籍浙江省金华市浦江县。 [2]
+                            华为技术有限公司主要创始人兼总裁。</li>
+                    </div>
+                </div>
+            </el-main>
+           
+        </el-container>
+    </div>
+
+    <script language="javascript">
+        setTimeout(() => {
+            var s = '/public/js/bodyBg.jpg';
+            $('.content').remove()
+            $('.video').remove()
+            $('body').css('background', 'url(' + s + ')')
+            $('#vue_det').css('display', 'block')
+        }, 4000)
+    </script>
+    <script>
+        var vm = new Vue({
+            el: '#vue_det',
+            data: {
+                activeName: 'seconde',
+                drawer: false,
+                innerDrawer: false,
+                active: 1,
+                activeName: '1',
+                imglist: ["/public/js/马.jpg", "/public/js/ma明哲.jpg", "/public/js/wang.jpg",
+                    "/public/js/wangwei.jpg"
+                ]
+            },
+            methods: {
+                next() {
+                    if (this.activeName++ > 4) this.active = 0;
+                },
+                load() {
+                    this.count += 2
+                }
+
+            }
+        })
+    </script>
+</body>
+
+</html>

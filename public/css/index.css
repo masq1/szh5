@@ -1,0 +1,245 @@
+
+        .col-3 {
+            background-color: aqua;
+        }
+
+        .col-8 {
+            background-color: red;
+        }
+
+        .container {
+            /* background-color: blue; */
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        .masklayer {
+            background-color: black;
+        }
+
+        .svg {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: white;
+            background-color: black;
+
+        }
+
+        .svg-box {
+            height: min(100vh, 100vw);
+            width: min(100vh, 100vw);
+        }
+
+        .content {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: stretch;
+            position: absolute;
+            transition: all 10s linear;
+        }
+
+        .content:hover {
+            transform: scale(100, 100);
+        }
+
+        .box {
+            flex-grow: 1;
+            background-color: black;
+        }
+
+        .video {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .con {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+
+        .img1 {
+            margin-bottom: 30px;
+            margin-left: 100px;
+        }
+        .topbg{
+            width: 100%;
+            height: 100px;
+        }
+        .header {
+            /* background-color: blue; */
+        }
+
+        .font {
+            font-size: 30px;
+            line-height: 60px;
+        }
+
+        .font2 {
+            font-size: 17px;
+            line-height: 60px;
+            float: right;
+        }
+
+        .text {
+            font-size: 14px;
+        }
+
+        .item {
+            margin-bottom: 18px;
+        }
+
+        .clearfix:before,
+        .clearfix:after {
+            display: table;
+            content: "";
+        }
+
+        .clearfix:after {
+            clear: both
+        }
+
+        .box-card {
+            width: 480px;
+        }
+
+        .onechildren {
+            display: flex;
+            height: 400px;
+            width: 100%;
+        }
+
+        .lilist {
+            display: flex;
+            width: 60%;
+            height: 100%;
+            flex-wrap: wrap;
+            /* background-color: darkorange; */
+
+        }
+
+        .lilist li {
+            flex: 1;
+            height: 50%;
+            /* background-color: cyan; */
+            min-width: 33.3%;
+            max-width: 33.3%;
+            list-style-type: none;
+
+
+        }
+
+        .videoplay {
+            height: 100%;
+            margin-left: 10%;
+            width: 30%;
+
+        }
+
+        .videoplay video {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border-radius: 10px;
+        }
+
+        .lilist img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .lc {
+            margin-top: 30px;
+            margin-left: 90px;
+            margin-bottom: 30px;
+        }
+
+        .two {
+            display: flex;
+            width: 100%;
+            height: 460px;
+            justify-content: space-around;
+        }
+
+        .tow1 {
+            width: 50%;
+            height: 100%;
+        }
+
+        .tow2 {
+            width: 300px;
+            height: 100%;
+
+        }
+
+        .two2 viedo {
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
+        .span {
+            font-size: 20px;
+            color: grey;
+        }
+
+        .el-carousel__item h3 {
+            color: #475669;
+            font-size: 14px;
+            opacity: 0.75;
+            line-height: 150px;
+            margin: 0;
+        }
+
+        .el-carousel__item:nth-child(2n) {
+            background-color: #99a9bf;
+        }
+
+        .el-carousel__item:nth-child(2n+1) {
+            background-color: #d3dce6;
+        }
+
+        .three {
+            width: 100%;
+            height: 400px;
+            /* background-color: yellow; */
+            display: flex;
+
+        }
+
+        .block {
+            width: 60%;
+
+            border-radius: 8px;
+        }
+
+        .three2 {
+            width: 30%;
+
+            margin-left: 10%;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        #vue_det {
+            display: none;
+        }
